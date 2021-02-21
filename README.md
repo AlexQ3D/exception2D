@@ -20,3 +20,4 @@ Installation is very simple! Just download the latest release and drag and drop 
 - Include hardware information in the logfile
 - Add example log to repo
 - Add log screenshot to repo
+- Add debug stack to error log
