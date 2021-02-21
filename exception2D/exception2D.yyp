@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_error_example","path":"objects/obj_error_example/obj_error_example.yy",},"order":0,},
-    {"id":{"name":"error2D","path":"scripts/error2D/error2D.yy",},"order":0,},
+    {"id":{"name":"exception2D","path":"scripts/exception2D/exception2D.yy",},"order":0,},
     {"id":{"name":"rm_example","path":"rooms/rm_example/rm_example.yy",},"order":0,},
   ],
   "Options": [

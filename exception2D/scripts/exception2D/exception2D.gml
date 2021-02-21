@@ -17,10 +17,10 @@ function __exception_handler(exception) {
 	// Error message is the actual error which gets displayed/saved to a log file
 	var errorMessage = "";
 	var gameName = game_display_name; 
-	var logDir = working_directory + "logs/log_" + __time_string() + ".txt"; // Where to save your log to
+	var logDir = working_directory + "logs\\log_" + __time_string() + ".txt"; // Where to save your log to
 
 	// Error header
-	errorMessage += "An error has caused "+ gameName +" to crash!\n\nPlease consider sending a screenshot of this message to the developers, or (more helpfully) the log file\n\n";
+	errorMessage += "An error has caused "+ gameName +" to crash!\n\nPlease consider sending a screenshot of this message to the developers, or (more helpfully) the log file.\n\n";
 	
 	// Log path 
 	errorMessage += "Log saved at: "+ logDir + "\n\n";
@@ -38,7 +38,7 @@ function __exception_handler(exception) {
 	// Runner info
 	errorMessage += "Runner state:\n"
 	errorMessage += "YYC Enabled: " + string(code_is_compiled());
-	errorMessage += "\nTime String: " + time_string() + "\n\n";
+	errorMessage += "\nTime String: " + __time_string() + "\n\n";
 	
 	// Exception
 	errorMessage += "Short Message: \n" + exception.message;

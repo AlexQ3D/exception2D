@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "error2D",
+  "name": "exception2D",
   "tags": [],
   "resourceType": "GMScript",
 }
